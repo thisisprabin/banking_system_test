@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "properties": {
+    "user_id": {
+      "type": "integer"
+    },
+    "account_number": {
+      "type": "integer"
+    },
+    "amount": {
+      "type": "number",
+      "minimum": 1
+    }
+  },
+  "required": [
+    "user_id",
+    "account_number",
+    "amount"
+  ],
+  "additionalProperties": false
+}

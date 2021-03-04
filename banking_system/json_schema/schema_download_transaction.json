@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "account_number": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "account_number"
+  ],
+  "additionalProperties": false
+}
