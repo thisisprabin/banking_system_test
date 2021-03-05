@@ -6,3 +6,83 @@
 export EMAIL_HOST_USER="xxxx@gmail.com"  <br>
 export EMAIL_HOST_PASSWORD="xxxxxxxx"
 
+
+#### Add user -
+URL - /api/user/
+HTTP method POST 
+
+```
+{
+	"email_id": "thisisprabin@gmail.com",
+	"first_name": "Prabin",
+	"last_name": "Pramanik"
+}
+```
+<br>
+
+#### List user -
+URL - /api/user/
+HTTP method GET
+<br>
+
+
+#### Deposit Amount -
+URL - /api/deposit/
+HTTP method POST
+
+```
+{
+	"user_id": 1,
+	"account_number": 1614842576,
+	"amount": 12
+}
+```
+<br>
+
+
+#### Withdraw Amount -
+URL - /api/withdraw/
+HTTP method POST
+
+```
+{
+	"user_id": 1,
+	"account_number": 1614842576,
+	"amount": 12
+}
+```
+<br>
+
+#### Enquiry Amount -
+URL - /api/enquiry/
+HTTP method POST
+
+```
+{
+	"user_id": 1,
+	"account_number": 1614842576
+}
+```
+<br>
+
+#### Download transaction record -
+URL - /api/download-transaction-record/
+HTTP method POST
+
+```
+{
+	"account_number": 1614842576
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
